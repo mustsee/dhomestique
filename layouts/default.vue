@@ -1,19 +1,19 @@
 <template>
   <v-app>
-  <v-toolbar app flat height="80" color="#f6f1eb">
+  <v-toolbar app flat height="80" color="#fff">
     <v-toolbar-title class="title">d<span class="home">home</span>stique</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-icon>local_phone</v-icon>
     <span class="phone-number">06 58 86 95 90</span>
   </v-toolbar>
     <v-content>
-      <v-container>
+      <v-container fluid>
         <nuxt />
       </v-container>
     </v-content>
     <v-footer
       class="justify-center"
-      color="#f6f1eb"
+      color="#fff"
       fixed
       app
     >
@@ -23,6 +23,9 @@
 </template>
 
 <style lang="scss" scoped>
+  .container {
+    padding: 0;
+  }
   .title {
     text-transform: uppercase;
     font-size: 24px !important;

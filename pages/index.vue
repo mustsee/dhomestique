@@ -1,20 +1,15 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-    </v-flex>
-  </v-layout>
+  <hero />
 </template>
 
 <script>
+  import Hero from "../components/Hero";
 
 export default {
+  components: {
+    'hero': Hero
+  }
 }
 </script>
+
+
