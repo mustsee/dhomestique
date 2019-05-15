@@ -1,7 +1,7 @@
 {
-  "name": "dhomestique",
+  "name": "Dhomestique",
   "version": "1.0.0",
-  "description": "Tout ce qui concerne votre maison",
+  "description": "Tout ce dont votre maison a besoin",
   "author": "thomas.sypniewski@gmail.com",
   "private": true,
   "scripts": {

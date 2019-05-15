@@ -3,7 +3,7 @@
   <v-toolbar app flat height="80" color="#fff">
     <v-toolbar-title class="title">d<span class="home">home</span>stique</v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-icon>local_phone</v-icon>
+    <v-icon color="#FF8C00">local_phone</v-icon>
     <span class="phone-number">06 58 86 95 90</span>
   </v-toolbar>
     <v-content>
@@ -14,8 +14,6 @@
     <v-footer
       class="justify-center"
       color="#fff"
-      fixed
-      app
     >
       <span>&copy; 2019</span>
     </v-footer>
@@ -24,7 +22,8 @@
 
 <style lang="scss" scoped>
   .container {
-    padding: 0;
+    padding: 0; 
+    min-width: 300px;
   }
   .title {
     text-transform: uppercase;
@@ -36,6 +35,10 @@
   .phone-number {
     font-size: 20px;
     margin-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:auto;
   }
 </style>
 
