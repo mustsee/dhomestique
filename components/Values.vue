@@ -1,14 +1,14 @@
 <template>
   <div class="values">
-    <div class="header text-xs-center">Nos valeurs</div>
+    <div class="header text-xs-center">À propos</div>
     <div class="card-wrapper">
       <div class="image"></div>
       <div class="text">
         <div class="content">
           <div>
             <span>
-                Gardien d'immeuble à Neuilly-sur-Seine depuis 20 ans, je souhaite mettre aujourd'hui
-                mes compétences au service du plus grand nombre.
+              Gardien d'immeuble à Neuilly-sur-Seine depuis 20 ans, je souhaite mettre aujourd'hui
+              mes compétences au service du plus grand nombre.
             </span>
           </div>
         </div>
@@ -26,6 +26,7 @@
     font-size: 40px;
     font-weight: 400;
     margin: 40px;
+    font-family: "Lobster", cursive !important;
   }
   .card-wrapper {
     display: flex;
