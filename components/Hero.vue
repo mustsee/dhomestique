@@ -1,5 +1,5 @@
 <template>
-  <v-parallax height="600" src="/man_with_tools.png" alt="Man with tools">
+  <v-parallax height="600" src="/rico-bleu.png" alt="Portrait of a craftsman smilling wearing blue work">
     <v-layout row wrap>
       <v-flex xs10 offset-xs1 sm6 offset-sm1 align-self-center class="presentation">
         <div class="services mb-4">diagnostic - conseil - dépannage - expertise</div>
@@ -29,6 +29,7 @@
     color: #FF8C00;
   }
   .motto {
+    font-family: sans-serif;
     font-size: 37px;
     font-weight: 700;
   }

@@ -55,16 +55,16 @@
 
 <style lang="scss" scoped>
 .services {
-  margin: 40px;
   position: relative;
+  margin: 40px;
   .header {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 40px;
   }
   .card-wrapper {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -91,10 +91,11 @@
         }
       }
       .content {
+        font-family: 'Open Sans', sans-serif;
         margin-bottom: 5px;
         div {
           display: flex;
-          align-items: start;
+          align-items: flex-start;
         }
         span {
           font-size: 18px;
