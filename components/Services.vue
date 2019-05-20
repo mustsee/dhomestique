@@ -6,6 +6,9 @@
     <div class="card-wrapper">
       <div class="image">
         <img src="/expert.png" alt="icon of an expert" width="auto" height="150px">
+        <div class="pricing">
+          Tarif 30€ TTC
+        </div>
       </div>
       <div class="text">
         <div class="title">Diagnostic et conseil</div>
@@ -38,6 +41,9 @@
     <div class="card-wrapper">
       <div class="image">
         <img src="/tools.png" alt="icon of tools" width="auto" height="90px">
+        <div class="devis">
+          Devis<br/>Gratuit
+        </div>
       </div>
       <div class="text">
         <div class="title">Pour tous dépannages et bricolages, mise en relation avec nos artisans</div>
@@ -73,9 +79,12 @@
   .header {
     font-size: 40px;
     font-weight: 400;
-    margin: 40px;
+    margin: 40px 0 40px 0;
     font-family: "Lobster", cursive;
     letter-spacing: 1px;
+    @media (max-width: 801px) {
+      font-size: 35px;
+    }
     .name {
       font-family: 'Roboto', sans-serif;
       font-weight: 500;
@@ -88,7 +97,8 @@
   .card-wrapper {
     display: flex;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    padding-top: 40px;
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -97,6 +107,7 @@
       align-items: center;
     }
     .image {
+      position: relative;
       min-width: 200px;
       height: 200px;
       background-color: #ff8c00;
@@ -105,6 +116,35 @@
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+    .pricing, .devis {
+      position: absolute;
+      border: 1px solid rgba(0,0,0,0.87);
+      border-radius: 25px;
+      background: #c40b0b;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .pricing {
+      top: -35px;
+      left: -50px;
+    }
+    .devis {
+      top: 135px;
+      left: -50px;
+      border-radius: 50%;
+      width: 110px;
+      height: 110px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media (max-width: 801px) {
+        top: -65px;
+        left: 135px;
+      }      
     }
     .text {
       margin-left: 50px;
@@ -122,12 +162,9 @@
       }
       .content {
         margin-bottom: 5px;
-          @media (max-width: 500px) {
-            margin-left: 30px;
-          }
-          @media (min-width: 501px) and (max-width: 801px) {
-            margin: 0 30px 0 50px;
-          }
+        @media (min-width: 501px) and (max-width: 801px) {
+          margin: 0 50px 0 50px;
+        }
         div {
           display: flex;
           align-items: flex-start;

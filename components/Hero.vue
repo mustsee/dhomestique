@@ -6,7 +6,12 @@
   >
     <v-layout row wrap>
       <v-flex xs10 offset-xs1 sm6 offset-sm1 align-self-center class="presentation">
-        <div class="services mb-4">diagnostic - conseil - dépannage - expertise</div>
+        <div class="services mb-4">
+          <span class="chip-custom">diagnostic</span>
+          <span class="chip-custom">conseil</span>
+          <span class="chip-custom">dépannage</span>
+          <span class="chip-custom">expertise</span>
+          </div>
         <div
           class="motto mb-5"
         >Un concierge à votre domicile pour tous dépannages, conseils et services</div>
@@ -29,11 +34,29 @@
 .presentation {
   //color: rgba(34, 34, 34, 0.932);
   color: rgba(0,0,0,0.87);
+  @media (max-width: 801px) {
+    line-height: 1.4;
+  }  
   .services {
-    text-transform: uppercase;
-    font-size: 21px;
-    font-weight: 500;
-    color: #c40b0b;
+    display: flex;
+    @media (max-width: 530px) {
+      flex-wrap: wrap;
+    } 
+    .chip-custom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 13px;
+      height: 32px;
+      margin: 4px;
+      padding: 0 12px;
+      background: #fff;
+      border-radius: 28px;
+      border: 1px solid rgba(0,0,0,0.87);
+      color: rgba(0,0,0,0.87);
+    }
   }
   .motto {
     font-size: 37px;
@@ -46,9 +69,10 @@
     display: flex;
     font-size: 26px;
     .wrapper {
+      background: #fff;
       font-weight: 700;
       padding: 5px 30px;
-      border: solid 1px black;
+      border: solid 1px rgba(0,0,0,0.87);
       border-radius: 45px;
       text-overflow: ellipsis;
       white-space: nowrap;

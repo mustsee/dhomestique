@@ -46,7 +46,7 @@
     }
     .text {
       margin-left: 50px;
-      padding: 20px;
+      padding: 20px 0 20px 0px;
       @media (max-width: 801px) {
         margin-left: 0;
         padding-top: 30px;
