@@ -24,7 +24,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Lobster&display=swap'
+          'https://fonts.googleapis.com/css?family=Oswald&display=swap'
       }
     ]
   },

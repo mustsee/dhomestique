@@ -8,9 +8,10 @@
       <v-flex xs10 offset-xs1 sm6 offset-sm1 align-self-center class="presentation">
         <div class="services mb-4">
           <span class="chip-custom">diagnostic</span>
-          <span class="chip-custom">conseil</span>
+          <!-- <span class="chip-custom">conseil</span> -->
           <span class="chip-custom">dépannage</span>
-          <span class="chip-custom">expertise</span>
+          <span class="chip-custom">prévention</span>
+          <!-- <span class="chip-custom">expertise</span> -->
           </div>
         <div
           class="motto mb-5"
@@ -32,7 +33,6 @@
 
 <style lang="scss" scoped>
 .presentation {
-  //color: rgba(34, 34, 34, 0.932);
   color: rgba(0,0,0,0.87);
   @media (max-width: 801px) {
     line-height: 1.4;

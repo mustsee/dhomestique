@@ -6,10 +6,33 @@
       <div class="text">
         <div class="content">
           <div>
-            <span>
-              Gardien d'immeuble à Neuilly-sur-Seine depuis 20 ans, je souhaite mettre aujourd'hui
-              mes compétences au service du plus grand nombre.
-            </span>
+            L’entreprise est née de mon
+            expérience de plus de 20 ans en tant que gardien de résidences de
+            standing à Neuilly.
+          </div>
+          <div>
+            Hormis les tâches quotidiennes qui incombe à mon
+            métier de gardien, j’ai très vite constaté que les besoins des résidents
+            étaient aussi d’avoir une personne de confiance et disponible pour
+            les dépanner dans des situations quotidiennes.
+          </div>
+          <div>
+            Les services que rend
+            un gardien sont nombreux, ils vont du simple fait de changer une
+            ampoule ou resserrer un robinet à la mise en relation pour des
+            réparations ou travaux plus importants.
+          </div>
+          <div>
+            J’effectue un premier
+            constat et diagnostic de la situation avant toute intervention, et
+            m’occupe de la mise en relation avec des artisans de confiance et à
+            moindre coût si besoin.
+          </div>
+          <div>
+            Dhomestique représente donc aujourd’hui à
+            l’échelle de Neuilly et de ses environs, les services et la disponibilité
+            d’un gardien à domicile pour gérer en toute confiance vos pannes ou
+            problèmes du quotidien.
           </div>
         </div>
       </div>
@@ -26,10 +49,11 @@
     font-size: 40px;
     font-weight: 400;
     margin: 40px;
-    font-family: "Lobster", cursive !important;
+    font-family: "Oswald", sans-serif;
   }
   .card-wrapper {
     display: flex;
+    align-items: center;
     margin-bottom: 50px;
     max-width: 750px;
     margin-left: auto;
@@ -46,21 +70,18 @@
     }
     .text {
       margin-left: 50px;
-      padding: 20px 0 20px 0px;
+      padding: 10px 0 20px 0px;
       @media (max-width: 801px) {
         margin-left: 0;
         padding-top: 30px;
       }
       .content {
-        font-family: sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
         margin-bottom: 5px;
         div {
-          display: flex;
-          align-items: flex-start;
-        }
-        span {
-          font-size: 18px;
           margin-left: 10px;
+          margin-bottom: 15px;
         }
       }
     }
