@@ -31,11 +31,11 @@
     color: #ff8c00;
   }
   @media (max-width: 374px) {
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
 }
 .phone-number {
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 5px;
   text-overflow: ellipsis;
   white-space: nowrap;
