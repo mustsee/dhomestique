@@ -8,10 +8,9 @@
       <v-flex xs10 offset-xs1 sm6 offset-sm1 align-self-center class="presentation">
         <div class="services mb-4">
           <span class="chip-custom">diagnostic</span>
-          <!-- <span class="chip-custom">conseil</span> -->
+          <span class="chip-custom">bricolage</span>
           <span class="chip-custom">dépannage</span>
           <span class="chip-custom">prévention</span>
-          <!-- <span class="chip-custom">expertise</span> -->
           </div>
         <div
           class="motto mb-5"

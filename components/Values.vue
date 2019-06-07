@@ -11,9 +11,8 @@
             standing à Neuilly.
           </div>
           <div>
-            Hormis les tâches quotidiennes qui incombe à mon
-            métier de gardien, j’ai très vite constaté que les besoins des résidents
-            étaient aussi d’avoir une personne de confiance et disponible pour
+            J’ai pu constater que les besoins des résidents
+            sont d’avoir une personne de confiance et disponible pour
             les dépanner dans des situations quotidiennes.
           </div>
           <div>
@@ -26,11 +25,10 @@
             J’effectue un premier
             constat et diagnostic de la situation avant toute intervention, et
             m’occupe de la mise en relation avec des artisans de confiance et à
-            moindre coût si besoin.
+            moindre coût.
           </div>
           <div>
-            Dhomestique représente donc aujourd’hui à
-            l’échelle de Neuilly et de ses environs, les services et la disponibilité
+            Dhomestique propose à Neuilly et ses environs, les services et la disponibilité
             d’un gardien à domicile pour gérer en toute confiance vos pannes ou
             problèmes du quotidien.
           </div>
