@@ -9,7 +9,9 @@ export default {
   */
   head: {
     title: 'Dhomestique - Un concierge à domicile',
-    lang: 'fr',
+    htmlAttrs: {
+      lang: 'fr',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

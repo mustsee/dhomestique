@@ -2,7 +2,7 @@
   <div class="values">
     <div class="header text-xs-center">À propos</div>
     <div class="card-wrapper">
-      <div class="image"></div>
+        <img src="/rico-head.png" alt="Portrait" class="image">
       <div class="text">
         <div class="content">
           <div>
