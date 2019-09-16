@@ -6,7 +6,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-icon color="#FF8C00">local_phone</v-icon>
-      <span class="phone-number small-screen"><a href="tel:+3358869590">06 58 86 95 90</a></span>
+      <span class="phone-number small-screen"><a href="tel:+33658869590">06 58 86 95 90</a></span>
       <span class="phone-number big-screen">06 58 86 95 90</span>
     </v-toolbar>
     <v-content>

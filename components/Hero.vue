@@ -19,7 +19,7 @@
           <div class="wrapper">
             <v-icon color="#FF8C00" medium>local_phone</v-icon>
             <span class="big-screen">06 58 86 95 90</span>
-            <span class="small-screen"><a href="tel:+658869590">06 58 86 95 90</a></span>
+            <span class="small-screen"><a href="tel:+33658869590">06 58 86 95 90</a></span>
           </div>
         </div>
         <div
