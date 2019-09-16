@@ -18,7 +18,8 @@
         <div class="phone_number mb-3">
           <div class="wrapper">
             <v-icon color="#FF8C00" medium>local_phone</v-icon>
-            <span>06 58 86 95 90</span>
+            <span class="big-screen">06 58 86 95 90</span>
+            <span class="small-screen"><a href="tel:+658869590">06 58 86 95 90</a></span>
           </div>
         </div>
         <div
@@ -77,6 +78,20 @@
       white-space: nowrap;
       overflow: hidden;
       width: auto;
+      @media (max-width: 1024px) {
+        .big-screen {
+          display: none;
+        }
+        a[href^="tel:"] {
+        color: #000;
+        text-decoration: none;
+        }
+      }
+      @media (min-width: 1025px) {
+        .small-screen {
+          display: none;
+        }
+      }
     }
   }
   .proximity {
