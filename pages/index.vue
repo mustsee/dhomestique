@@ -16,6 +16,14 @@ export default {
     'hero': Hero,
     'services': Services,
     'values': Values,
+  },
+ head () {
+    return {
+      title: 'Dhomestique, tout ce dont vous avez besoin pour la maison.',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Dhomestique, tout ce dont vous avez besoin pour la maison.' }
+      ]
+    }
   }
 }
 </script>
