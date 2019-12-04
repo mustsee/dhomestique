@@ -22,10 +22,7 @@
             réparations ou travaux plus importants.
           </div>
           <div>
-            J’effectue un premier
-            constat et diagnostic de la situation avant toute intervention, et
-            m’occupe de la mise en relation avec des artisans de confiance et à
-            moindre coût.
+            J’effectue un premier constat et diagnostic de la situation avant toute intervention, m’occupe de la mise en relation avec des artisans de confiance à moindre coût.
           </div>
           <div>
             Dhomestique propose à Neuilly et ses environs, les services et la disponibilité
